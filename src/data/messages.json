@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1741476240565,
+    "doctorId": 17,
+    "message": "fyl iiu; o; g;oug;i ",
+    "timestamp": "2025-03-08T23:24:00.565Z",
+    "read": true,
+    "senderId": 1740628059808,
+    "replies": [
+      {
+        "id": 1741483549883,
+        "originalNotificationId": 1741476240565,
+        "message": "je suis la aussi ",
+        "doctorId": 17,
+        "senderId": 17,
+        "timestamp": "2025-03-09T01:25:49.883Z",
+        "read": false
+      }
+    ]
+  },
+  {
+    "id": 1742159910410,
+    "doctorId": 16,
+    "message": "je suis encore malade.",
+    "timestamp": "2025-03-16T21:18:30.410Z",
+    "read": true,
+    "senderId": 1740630450878,
+    "replies": [
+      {
+        "id": 1742160066545,
+        "originalNotificationId": 1742159910410,
+        "message": "comment je peux t'aider?",
+        "doctorId": 16,
+        "senderId": 16,
+        "timestamp": "2025-03-16T21:21:06.545Z",
+        "read": false
+      }
+    ]
+  },
+  {
+    "id": 1742320512462,
+    "doctorId": 17,
+    "message": "je suis encore malade svp aidez moi.",
+    "timestamp": "2025-03-18T17:55:12.462Z",
+    "read": false,
+    "senderId": 1740628059808
+  },
+  {
+    "id": 1742926356884,
+    "doctorId": 15,
+    "message": "je suis malade.",
+    "timestamp": "2025-03-25T18:12:36.884Z",
+    "read": true,
+    "senderId": 1740628059808,
+    "replies": [
+      {
+        "id": 1742926855349,
+        "originalNotificationId": 1742926356884,
+        "message": "Encore toii!!!!!!!!",
+        "doctorId": 15,
+        "senderId": 15,
+        "timestamp": "2025-03-25T18:20:55.349Z",
+        "read": false
+      }
+    ]
+  }
+]

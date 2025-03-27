@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1740628059808,
+    "name": "Julie Morel",
+    "email": "JulieMorel@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "role": "admin",
+    "facePhoto": ""
+  },
+  {
+    "id": 1740630450878,
+    "name": "Marc Vidal",
+    "email": "Marc Vidal@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 1740633001377,
+    "name": "Thomas Lambert",
+    "email": "ThomasLambert@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 1740711629438,
+    "name": "yayi sila",
+    "email": "yayisila@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 1740722444163,
+    "name": "ben beckman",
+    "email": "benbeckman@gmail.com",
+    "password": "123456",
+    "role": "admin",
+    "facePhoto": ""
+  },
+  {
+    "id": 1741111769544,
+    "name": "red Bronx",
+    "email": "redhaomega132@gmail.com",
+    "password": "123123",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 1741113322260,
+    "name": "Ali Baba",
+    "email": "alibaba@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
+  },
+  {
+    "id": 15,
+    "name": "Sophie Dupont",
+    "email": "sophie.dupont@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Cardiologie",
+    "pinterestId": "19562579625011332",
+    "experience": "10",
+    "location": "Hôpital Général de Montréal, Montréal",
+    "rating": 4.8,
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 16,
+    "name": "Jean Martin",
+    "email": "jean.martin@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Cardiologie",
+    "pinterestId": "750553094188671588",
+    "experience": 8,
+    "location": "Clinique Cardiaque de Québec, Québec",
+    "rating": 4.7,
+    "languages": [
+      "Français",
+      "Espagnol"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 17,
+    "name": "Luc Bernard",
+    "email": "luc.bernard@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Dermatologie",
+    "pinterestId": "1048564725732327977",
+    "experience": "15",
+    "location": "Clinique de Dermatologie de Laval, Laval",
+    "rating": 4.6,
+    "languages": [
+      "Français",
+      "Italien"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 18,
+    "name": "Alice Moreau",
+    "email": "alice.moreau@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Dermatologie",
+    "pinterestId": "1829656094291853",
+    "experience": "9",
+    "location": "Hôpital Dermatologique de Gatineau, Gatineau",
+    "rating": 4.5,
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 19,
+    "name": "Élodie Petit",
+    "email": "elodie.petit@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Pédiatrie",
+    "pinterestId": "986006912165461380",
+    "experience": 11,
+    "location": "Hôpital pour Enfants de Sherbrooke, Sherbrooke",
+    "rating": 4.9,
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 20,
+    "name": "Thomas Lambert",
+    "email": "thomas.lambert@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Pédiatrie",
+    "pinterestId": "117234396545810773",
+    "experience": 6,
+    "location": "Clinique Pédiatrique de Trois-Rivières, Trois-Rivières",
+    "rating": 4.3,
+    "languages": [
+      "Français",
+      "Espagnol"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 21,
+    "name": "Marc Vidal",
+    "email": "marc.vidal@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Neurologie",
+    "pinterestId": "16888567441424334",
+    "experience": 16,
+    "location": "Hôpital Neurologique de Montréal, Montréal",
+    "rating": 4.9,
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 22,
+    "name": "Julie Morel",
+    "email": "julie.morel@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Neurologie",
+    "pinterestId": "776519160785022383",
+    "experience": 9,
+    "location": "Clinique Neurologique de Québec, Québec",
+    "rating": 4.7,
+    "languages": [
+      "Français",
+      "Allemand"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 23,
+    "name": "Antoine Girard",
+    "email": "antoine.girard@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Chirurgie",
+    "pinterestId": "16888567441424333",
+    "experience": 12,
+    "location": "Hôpital Chirurgical de Laval, Laval",
+    "rating": 4.8,
+    "languages": [
+      "Français",
+      "Espagnol"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 24,
+    "name": "Laura Blanc",
+    "email": "laura.blanc@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Chirurgie",
+    "pinterestId": "458593174577781810",
+    "experience": 13,
+    "location": "Clinique Chirurgicale de Gatineau, Gatineau",
+    "rating": 4.8,
+    "languages": [
+      "Français",
+      "Italien"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 25,
+    "name": "Nicolas Dupuis",
+    "email": "nicolas.dupuis@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Psychiatrie",
+    "pinterestId": "87257311506286691",
+    "experience": 10,
+    "location": "Hôpital Psychiatrique de Sherbrooke, Sherbrooke",
+    "rating": 4.6,
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 26,
+    "name": "Sarah Lemoine",
+    "email": "sarah.lemoine@example.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "specialty": "Psychiatrie",
+    "pinterestId": "1061864418396359176",
+    "experience": 8,
+    "location": "Clinique Psychiatrique de Trois-Rivières, Trois-Rivières",
+    "rating": 4.5,
+    "languages": [
+      "Français",
+      "Espagnol"
+    ],
+    "facePhoto": ""
+  },
+  {
+    "id": 1742927004345,
+    "name": "reda",
+    "email": "reda@example.com",
+    "password": "password123",
+    "role": "user",
+    "facePhoto": ""
+  }
+]
