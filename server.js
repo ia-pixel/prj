@@ -32,6 +32,7 @@ const writeData = (filePath, data) => {
   };
 
 
+
   // Route pour récupérer les utilisateurs avec le rôle "user"
 app.get('/api/users', (req, res) => {
     try {
