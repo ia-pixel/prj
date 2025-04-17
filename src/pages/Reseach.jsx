@@ -73,7 +73,7 @@ const Reseach = () => {
                 params: {
                     query: query,
                     per_page: 7, // Nombre d'images à afficher
-                    client_id: 'UZHpGCnCxVYuSRk5I-vJOknOK8w94JYVax3L7Vv4XjU', // Remplacez par votre clé API Unsplash
+                    client_id: 'UZHpGCnCxVYuSRk5I-vJOknOK8w94JYVax3L7Vv4XjU', // Clé API Unsplash
                 },
             });
             setRelatedImages(response.data.results);

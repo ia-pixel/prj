@@ -274,5 +274,13 @@
     "password": "password123",
     "role": "user",
     "facePhoto": ""
+  },
+  {
+    "id": 1744148781826,
+    "name": "steve Ataky",
+    "email": "steveAtaky@gmail.com",
+    "password": "123456",
+    "role": "user",
+    "facePhoto": ""
   }
 ]
