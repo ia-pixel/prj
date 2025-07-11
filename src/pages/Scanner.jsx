@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importez useNavigate
+import { useNavigate } from 'react-router-dom'; // useNavigate
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
   PieChart, Pie, Cell
@@ -15,11 +15,12 @@ const Scanner = () => {
   const [healthData, setHealthData] = useState(null);
   const [scanProgress, setScanProgress] = useState(0);
   const { user } = useSelector((state) => state.auth);
+
   const navigate = useNavigate(); // Créez une fonction de navigation
 
   const userName = user ? user.name : 'Utilisateur';
 
-  // Générer des données de santé aléatoires
+  // Données de santé aléatoires
   const generateHealthData = () => {
     return {
       heartRate: Math.floor(Math.random() * (100 - 60 + 1)) + 60,
@@ -35,7 +36,7 @@ const Scanner = () => {
     };
   };
 
-  // Simuler le scan de l'empreinte digitale
+  // Simulation du scan de l'empreinte digitale
   const handleFingerprintScan = () => {
     setIsScanning(true);
     setScanProgress(0);
@@ -50,7 +51,7 @@ const Scanner = () => {
             setHealthData(data);
             setIsScanning(false);
   
-            // Sauvegarder le scan dans le localStorage
+            // Sauvegarde du scan dans le localStorage
             const savedScans = JSON.parse(localStorage.getItem('scans')) || [];
             savedScans.push({ ...data, timestamp: new Date().toLocaleString() });
             localStorage.setItem('scans', JSON.stringify(savedScans));
@@ -59,11 +60,11 @@ const Scanner = () => {
           }
           return prev + 1;
         });
-      }, 60); // 6 à 7 secondes pour compléter le scan
-    }, 4000); // Délai de 5 secondes avant de commencer le scan
+      }, 50); // 5 à 6 secondes pour compléter le scan
+    }, 4000); // Délai de 4 secondes avant de commencer le scan
   };
 
-  // Évaluer si les données de santé sont bonnes
+  // Évaluation des données de santé pour voir si utilisateurs a des risques de maladie 
   const isHealthGood = () => {
     if (!healthData) return false;
     return (

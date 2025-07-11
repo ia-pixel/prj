@@ -26,6 +26,7 @@ const readData = (filePath) => {
     if (!fs.existsSync(filePath)) return [];
     return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   };
+
 // Fonction pour écrire dans un fichier JSON
 const writeData = (filePath, data) => {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
@@ -65,7 +66,7 @@ app.get('/api/users', (req, res) => {
   // Ajouter un nouvel utilisateur
   app.post('/api/users', (req, res) => {
     try {
-      console.log("Données reçues :", req.body); // ✅ Ajout pour debug
+      console.log("Données reçues :", req.body); // Ajout pour debug
   
       const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
   
@@ -87,7 +88,7 @@ app.get('/api/users', (req, res) => {
   app.put('/api/users/:id', (req, res) => {
     try {
       console.log("ID utilisateur :", req.params.id);
-      console.log("Données reçues :", req.body); // ✅ Ajout pour debug
+      console.log("Données reçues :", req.body); //  Ajout pour debug
   
       let users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
       const userIndex = users.findIndex((user) => user.id == req.params.id);
